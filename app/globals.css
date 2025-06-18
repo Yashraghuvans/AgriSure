@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --primary-bg: #111827;
+  --secondary-bg: #1f2937;
+  --primary-text: #fff;
+  --secondary-text: #d1d5db;
+  --btn-green: #22c55e;
+  --btn-green-hover: #16a34a;
+  --btn-blue: #2563eb;
+  --btn-blue-hover: #1d4ed8;
+}
+
+body {
+  background: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+.btn-green {
+  @apply font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105;
+  background: var(--btn-green);
+  color: #fff;
+}
+.btn-green:hover {
+  background: var(--btn-green-hover);
+}
+
+.btn-blue {
+  @apply font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105;
+  background: var(--btn-blue);
+  color: #fff;
+}
+.btn-blue:hover {
+  background: var(--btn-blue-hover);
+}
