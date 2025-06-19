@@ -1,3 +1,5 @@
+![banner](https://github.com/Yashraghuvans/Veridian-Analytics/blob/main/public/banner.png)
+
 # Veridian Analytics: Smart Climate-Resilient Crop Insurance
 
 [![Project Status](https://img.shields.io/badge/Status-Development-yellowgreen)](https://img.shields.io/badge/Status-Development-yellowgreen)
@@ -84,15 +86,22 @@ Our AI models are central to Veridian Analytics' capabilities:
 
 ## Monetization & Sustainability
 
-Our sustainable business model ensures broad accessibility and long-term viability:
-
-* **Freemium Model for Farmers:** Core insurance services are available, with options for premium features offering deeper insights or advanced analytics.
-
-* **API Licensing:** Offering our powerful risk assessment and data analytics APIs to insurance providers and government entities.
-
-* **Strategic Partnerships:** Collaborating with key stakeholders in the agri-tech sector, financial institutions, and agricultural cooperatives.
-
-* **Future Growth:** Expansion into value-added services such as agri credit scoring and microloans for farmers.
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <p>Our sustainable business model ensures broad accessibility and long-term viability:</p>
+      <ul>
+        <li><strong>Freemium Model for Farmers:</strong> Core insurance services are available, with options for premium features offering deeper insights or advanced analytics.</li>
+        <li><strong>API Licensing:</strong> Offering our powerful risk assessment and data analytics APIs to insurance providers and government entities.</li>
+        <li><strong>Strategic Partnerships:</strong> Collaborating with key stakeholders in the agri-tech sector, financial institutions, and agricultural cooperatives.</li>
+        <li><strong>Future Growth:</strong> Expansion into value-added services such as agri credit scoring and microloans for farmers.</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="right">
+      <img src="https://github.com/Yashraghuvans/Veridian-Analytics/blob/main/public/cover.png" height="500" width="400" alt="Veridian Analytics Cover Image"/>
+    </td>
+  </tr>
+</table>
 
 ## Scalability & Future Scope
 
