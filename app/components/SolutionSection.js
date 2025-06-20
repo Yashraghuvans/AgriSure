@@ -12,7 +12,7 @@ export default function SolutionSection() {
   return (
     <section id="solution-section" className="py-16 bg-[#111827]">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-white mb-12">The Solution: AgriSure</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-12">The Solution: Veridian Analytics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {solutions.map((solution, index) => (
             <div key={index} className="flex items-start bg-[#1f2937] p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
