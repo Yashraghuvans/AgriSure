@@ -14,10 +14,10 @@ export default function LoginPage() {
   const handleLogin = (e) => {
     e.preventDefault();
     setError('');
-    if (username === 'farmer' && password === 'password') {
+    if (username === 'farmer' && password === '12345') {
       router.push('/insurances');
     } else {
-      setError('Invalid username or password. Try "farmer" / "password".');
+      setError('Invalid username or password. Try "farmer" / "12345".');
     }
   };
 
@@ -26,10 +26,10 @@ export default function LoginPage() {
       <div className="max-w-md w-full space-y-8 bg-[#1f2937] p-10 rounded-lg shadow-xl">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
-            Login to AgriSure
+            Login to Veridian Analytics
           </h2>
           <p className="mt-2 text-center text-sm text-gray-300">
-            For demonstration, use: <span className="font-bold text-green-400">farmer</span> / <span className="font-bold text-green-400">password</span>
+            For demonstration, use: <span className="font-bold text-green-400">farmer</span> / <span className="font-bold text-green-400">12345</span>
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleLogin}>
